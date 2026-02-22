@@ -1,0 +1,4 @@
+run -> FileServer
+run -> Client from cmd
+java FileClient 127.0.0.1 6000
+upload C:\Users\Dulal\Downloads\dulal.txt public 100
