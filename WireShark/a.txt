@@ -1,0 +1,1551 @@
+No.     Time           Source                Destination           Protocol Length Info
+    115 1.549110       10.18.38.100          47.88.25.126          TCP      54     54605 → 80 [FIN, ACK] Seq=1 Ack=1 Win=7967 Len=0
+
+Frame 115: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F0AC679D-D3E5-4CFD-8C9C-9FE03533062E}, id 0
+Ethernet II, Src: MicroStarINT_a2:de:f2 (04:7c:16:a2:de:f2), Dst: Routerboardc_8b:a7:e8 (08:55:31:8b:a7:e8)
+Internet Protocol Version 4, Src: 10.18.38.100, Dst: 47.88.25.126
+Transmission Control Protocol, Src Port: 54605, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+    Source Port: 54605
+    Destination Port: 80
+    [Stream index: 4]
+    [Stream Packet Number: 1]
+    [Conversation completeness: Incomplete (20)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 960247573
+    [Next Sequence Number: 2    (relative sequence number)]
+    Acknowledgment Number: 1    (relative ack number)
+    Acknowledgment number (raw): 2615022377
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x011 (FIN, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...1 = Fin: Set
+        [TCP Flags: ·······A···F]
+    Window: 7967
+    [Calculated window size: 7967]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x7966 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+
+No.     Time           Source                Destination           Protocol Length Info
+    116 1.556149       10.18.38.100          47.88.25.126          TCP      66     58938 → 80 [SYN] Seq=0 Win=8192 Len=0 MSS=1460 WS=1 SACK_PERM
+
+Frame 116: Packet, 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{F0AC679D-D3E5-4CFD-8C9C-9FE03533062E}, id 0
+Ethernet II, Src: MicroStarINT_a2:de:f2 (04:7c:16:a2:de:f2), Dst: Routerboardc_8b:a7:e8 (08:55:31:8b:a7:e8)
+Internet Protocol Version 4, Src: 10.18.38.100, Dst: 47.88.25.126
+Transmission Control Protocol, Src Port: 58938, Dst Port: 80, Seq: 0, Len: 0
+    Source Port: 58938
+    Destination Port: 80
+    [Stream index: 5]
+    [Stream Packet Number: 1]
+    [Conversation completeness: Complete, WITH_DATA (47)]
+    [TCP Segment Len: 0]
+    Sequence Number: 0    (relative sequence number)
+    Sequence Number (raw): 2134247556
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 0
+    Acknowledgment number (raw): 0
+    1000 .... = Header Length: 32 bytes (8)
+    Flags: 0x002 (SYN)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...0 .... = Acknowledgment: Not set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..1. = Syn: Set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ··········S·]
+    Window: 8192
+    [Calculated window size: 8192]
+    Checksum: 0x7972 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    Options: (12 bytes), Maximum segment size, No-Operation (NOP), Window scale, No-Operation (NOP), No-Operation (NOP), SACK permitted
+    [Timestamps]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+
+No.     Time           Source                Destination           Protocol Length Info
+    126 1.807331       47.88.25.126          10.18.38.100          TCP      60     80 → 54605 [FIN, ACK] Seq=1 Ack=2 Win=131 Len=0
+
+Frame 126: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F0AC679D-D3E5-4CFD-8C9C-9FE03533062E}, id 0
+Ethernet II, Src: Routerboardc_8b:a7:e8 (08:55:31:8b:a7:e8), Dst: MicroStarINT_a2:de:f2 (04:7c:16:a2:de:f2)
+Internet Protocol Version 4, Src: 47.88.25.126, Dst: 10.18.38.100
+Transmission Control Protocol, Src Port: 80, Dst Port: 54605, Seq: 1, Ack: 2, Len: 0
+    Source Port: 80
+    Destination Port: 54605
+    [Stream index: 4]
+    [Stream Packet Number: 2]
+    [Conversation completeness: Incomplete (20)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 2615022377
+    [Next Sequence Number: 2    (relative sequence number)]
+    Acknowledgment Number: 2    (relative ack number)
+    Acknowledgment number (raw): 960247574
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x011 (FIN, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...1 = Fin: Set
+        [TCP Flags: ·······A···F]
+    Window: 131
+    [Calculated window size: 131]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x410d [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+
+No.     Time           Source                Destination           Protocol Length Info
+    127 1.807331       47.88.25.126          10.18.38.100          TCP      66     80 → 58938 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1370 SACK_PERM WS=512
+
+Frame 127: Packet, 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{F0AC679D-D3E5-4CFD-8C9C-9FE03533062E}, id 0
+Ethernet II, Src: Routerboardc_8b:a7:e8 (08:55:31:8b:a7:e8), Dst: MicroStarINT_a2:de:f2 (04:7c:16:a2:de:f2)
+Internet Protocol Version 4, Src: 47.88.25.126, Dst: 10.18.38.100
+Transmission Control Protocol, Src Port: 80, Dst Port: 58938, Seq: 0, Ack: 1, Len: 0
+    Source Port: 80
+    Destination Port: 58938
+    [Stream index: 5]
+    [Stream Packet Number: 2]
+    [Conversation completeness: Complete, WITH_DATA (47)]
+    [TCP Segment Len: 0]
+    Sequence Number: 0    (relative sequence number)
+    Sequence Number (raw): 1140429374
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 1    (relative ack number)
+    Acknowledgment number (raw): 2134247557
+    1000 .... = Header Length: 32 bytes (8)
+    Flags: 0x012 (SYN, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..1. = Syn: Set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······A··S·]
+    Window: 65535
+    [Calculated window size: 65535]
+    Checksum: 0xb18f [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    Options: (12 bytes), Maximum segment size, No-Operation (NOP), No-Operation (NOP), SACK permitted, No-Operation (NOP), Window scale
+    [Timestamps]
+    [SEQ/ACK analysis]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+
+No.     Time           Source                Destination           Protocol Length Info
+    128 1.807371       10.18.38.100          47.88.25.126          TCP      54     54605 → 80 [ACK] Seq=2 Ack=2 Win=7967 Len=0
+
+Frame 128: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F0AC679D-D3E5-4CFD-8C9C-9FE03533062E}, id 0
+Ethernet II, Src: MicroStarINT_a2:de:f2 (04:7c:16:a2:de:f2), Dst: Routerboardc_8b:a7:e8 (08:55:31:8b:a7:e8)
+Internet Protocol Version 4, Src: 10.18.38.100, Dst: 47.88.25.126
+Transmission Control Protocol, Src Port: 54605, Dst Port: 80, Seq: 2, Ack: 2, Len: 0
+    Source Port: 54605
+    Destination Port: 80
+    [Stream index: 4]
+    [Stream Packet Number: 3]
+    [Conversation completeness: Incomplete (20)]
+    [TCP Segment Len: 0]
+    Sequence Number: 2    (relative sequence number)
+    Sequence Number (raw): 960247574
+    [Next Sequence Number: 2    (relative sequence number)]
+    Acknowledgment Number: 2    (relative ack number)
+    Acknowledgment number (raw): 2615022378
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······A····]
+    Window: 7967
+    [Calculated window size: 7967]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x7966 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+
+No.     Time           Source                Destination           Protocol Length Info
+    129 1.807457       10.18.38.100          47.88.25.126          TCP      54     58938 → 80 [ACK] Seq=1 Ack=1 Win=8192 Len=0
+
+Frame 129: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F0AC679D-D3E5-4CFD-8C9C-9FE03533062E}, id 0
+Ethernet II, Src: MicroStarINT_a2:de:f2 (04:7c:16:a2:de:f2), Dst: Routerboardc_8b:a7:e8 (08:55:31:8b:a7:e8)
+Internet Protocol Version 4, Src: 10.18.38.100, Dst: 47.88.25.126
+Transmission Control Protocol, Src Port: 58938, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+    Source Port: 58938
+    Destination Port: 80
+    [Stream index: 5]
+    [Stream Packet Number: 3]
+    [Conversation completeness: Complete, WITH_DATA (47)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 2134247557
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 1    (relative ack number)
+    Acknowledgment number (raw): 1140429375
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······A····]
+    Window: 8192
+    [Calculated window size: 8192]
+    [Window size scaling factor: 1]
+    Checksum: 0x7966 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+
+No.     Time           Source                Destination           Protocol Length Info
+    130 1.807689       10.18.38.100          47.88.25.126          HTTP     428    GET /interface.php?m=uploadstatus&pid=1901&version_id=12.5.7.3767&client_sign={abbecd6b-81eb-4e1e-b221-82aecdb41e08G} HTTP/1.1 
+
+Frame 130: Packet, 428 bytes on wire (3424 bits), 428 bytes captured (3424 bits) on interface \Device\NPF_{F0AC679D-D3E5-4CFD-8C9C-9FE03533062E}, id 0
+Ethernet II, Src: MicroStarINT_a2:de:f2 (04:7c:16:a2:de:f2), Dst: Routerboardc_8b:a7:e8 (08:55:31:8b:a7:e8)
+Internet Protocol Version 4, Src: 10.18.38.100, Dst: 47.88.25.126
+Transmission Control Protocol, Src Port: 58938, Dst Port: 80, Seq: 1, Ack: 1, Len: 374
+    Source Port: 58938
+    Destination Port: 80
+    [Stream index: 5]
+    [Stream Packet Number: 4]
+    [Conversation completeness: Complete, WITH_DATA (47)]
+    [TCP Segment Len: 374]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 2134247557
+    [Next Sequence Number: 375    (relative sequence number)]
+    Acknowledgment Number: 1    (relative ack number)
+    Acknowledgment number (raw): 1140429375
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 8192
+    [Calculated window size: 8192]
+    [Window size scaling factor: 1]
+    Checksum: 0x7adc [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (374 bytes)
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    154 2.059024       47.88.25.126          10.18.38.100          TCP      60     80 → 58938 [ACK] Seq=1 Ack=375 Win=67072 Len=0
+
+Frame 154: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F0AC679D-D3E5-4CFD-8C9C-9FE03533062E}, id 0
+Ethernet II, Src: Routerboardc_8b:a7:e8 (08:55:31:8b:a7:e8), Dst: MicroStarINT_a2:de:f2 (04:7c:16:a2:de:f2)
+Internet Protocol Version 4, Src: 47.88.25.126, Dst: 10.18.38.100
+Transmission Control Protocol, Src Port: 80, Dst Port: 58938, Seq: 1, Ack: 375, Len: 0
+    Source Port: 80
+    Destination Port: 58938
+    [Stream index: 5]
+    [Stream Packet Number: 5]
+    [Conversation completeness: Complete, WITH_DATA (47)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 1140429375
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 375    (relative ack number)
+    Acknowledgment number (raw): 2134247931
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······A····]
+    Window: 131
+    [Calculated window size: 67072]
+    [Window size scaling factor: 512]
+    Checksum: 0xf010 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+
+No.     Time           Source                Destination           Protocol Length Info
+    155 2.060614       47.88.25.126          10.18.38.100          HTTP     324    HTTP/1.1 404 Not Found  [Last Chunk]
+
+Frame 155: Packet, 324 bytes on wire (2592 bits), 324 bytes captured (2592 bits) on interface \Device\NPF_{F0AC679D-D3E5-4CFD-8C9C-9FE03533062E}, id 0
+Ethernet II, Src: Routerboardc_8b:a7:e8 (08:55:31:8b:a7:e8), Dst: MicroStarINT_a2:de:f2 (04:7c:16:a2:de:f2)
+Internet Protocol Version 4, Src: 47.88.25.126, Dst: 10.18.38.100
+Transmission Control Protocol, Src Port: 80, Dst Port: 58938, Seq: 1, Ack: 375, Len: 270
+    Source Port: 80
+    Destination Port: 58938
+    [Stream index: 5]
+    [Stream Packet Number: 6]
+    [Conversation completeness: Complete, WITH_DATA (47)]
+    [TCP Segment Len: 270]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 1140429375
+    [Next Sequence Number: 271    (relative sequence number)]
+    Acknowledgment Number: 375    (relative ack number)
+    Acknowledgment number (raw): 2134247931
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 131
+    [Calculated window size: 67072]
+    [Window size scaling factor: 512]
+    Checksum: 0x9277 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (270 bytes)
+Hypertext Transfer Protocol, has 1 chunk (including last chunk)
+
+No.     Time           Source                Destination           Protocol Length Info
+    156 2.061027       10.18.38.100          47.88.25.126          TCP      54     58938 → 80 [RST, ACK] Seq=375 Ack=271 Win=0 Len=0
+
+Frame 156: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F0AC679D-D3E5-4CFD-8C9C-9FE03533062E}, id 0
+Ethernet II, Src: MicroStarINT_a2:de:f2 (04:7c:16:a2:de:f2), Dst: Routerboardc_8b:a7:e8 (08:55:31:8b:a7:e8)
+Internet Protocol Version 4, Src: 10.18.38.100, Dst: 47.88.25.126
+Transmission Control Protocol, Src Port: 58938, Dst Port: 80, Seq: 375, Ack: 271, Len: 0
+    Source Port: 58938
+    Destination Port: 80
+    [Stream index: 5]
+    [Stream Packet Number: 7]
+    [Conversation completeness: Complete, WITH_DATA (47)]
+    [TCP Segment Len: 0]
+    Sequence Number: 375    (relative sequence number)
+    Sequence Number (raw): 2134247931
+    [Next Sequence Number: 375    (relative sequence number)]
+    Acknowledgment Number: 271    (relative ack number)
+    Acknowledgment number (raw): 1140429645
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x014 (RST, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .1.. = Reset: Set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······A·R··]
+    Window: 0
+    [Calculated window size: 0]
+    [Window size scaling factor: 1]
+    Checksum: 0x7966 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+
+No.     Time           Source                Destination           Protocol Length Info
+    157 2.062499       10.18.38.100          47.88.25.126          TCP      66     62019 → 80 [SYN] Seq=0 Win=8192 Len=0 MSS=1460 WS=1 SACK_PERM
+
+Frame 157: Packet, 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{F0AC679D-D3E5-4CFD-8C9C-9FE03533062E}, id 0
+Ethernet II, Src: MicroStarINT_a2:de:f2 (04:7c:16:a2:de:f2), Dst: Routerboardc_8b:a7:e8 (08:55:31:8b:a7:e8)
+Internet Protocol Version 4, Src: 10.18.38.100, Dst: 47.88.25.126
+Transmission Control Protocol, Src Port: 62019, Dst Port: 80, Seq: 0, Len: 0
+    Source Port: 62019
+    Destination Port: 80
+    [Stream index: 7]
+    [Stream Packet Number: 1]
+    [Conversation completeness: Complete, WITH_DATA (47)]
+    [TCP Segment Len: 0]
+    Sequence Number: 0    (relative sequence number)
+    Sequence Number (raw): 3446250336
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 0
+    Acknowledgment number (raw): 0
+    1000 .... = Header Length: 32 bytes (8)
+    Flags: 0x002 (SYN)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...0 .... = Acknowledgment: Not set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..1. = Syn: Set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ··········S·]
+    Window: 8192
+    [Calculated window size: 8192]
+    Checksum: 0x7972 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    Options: (12 bytes), Maximum segment size, No-Operation (NOP), Window scale, No-Operation (NOP), No-Operation (NOP), SACK permitted
+    [Timestamps]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+
+No.     Time           Source                Destination           Protocol Length Info
+    184 2.320473       47.88.25.126          10.18.38.100          TCP      66     80 → 62019 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1370 SACK_PERM WS=512
+
+Frame 184: Packet, 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{F0AC679D-D3E5-4CFD-8C9C-9FE03533062E}, id 0
+Ethernet II, Src: Routerboardc_8b:a7:e8 (08:55:31:8b:a7:e8), Dst: MicroStarINT_a2:de:f2 (04:7c:16:a2:de:f2)
+Internet Protocol Version 4, Src: 47.88.25.126, Dst: 10.18.38.100
+Transmission Control Protocol, Src Port: 80, Dst Port: 62019, Seq: 0, Ack: 1, Len: 0
+    Source Port: 80
+    Destination Port: 62019
+    [Stream index: 7]
+    [Stream Packet Number: 2]
+    [Conversation completeness: Complete, WITH_DATA (47)]
+    [TCP Segment Len: 0]
+    Sequence Number: 0    (relative sequence number)
+    Sequence Number (raw): 1104762959
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 1    (relative ack number)
+    Acknowledgment number (raw): 3446250337
+    1000 .... = Header Length: 32 bytes (8)
+    Flags: 0x012 (SYN, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..1. = Syn: Set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······A··S·]
+    Window: 65535
+    [Calculated window size: 65535]
+    Checksum: 0x0086 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    Options: (12 bytes), Maximum segment size, No-Operation (NOP), No-Operation (NOP), SACK permitted, No-Operation (NOP), Window scale
+    [Timestamps]
+    [SEQ/ACK analysis]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+
+No.     Time           Source                Destination           Protocol Length Info
+    185 2.320565       10.18.38.100          47.88.25.126          TCP      54     62019 → 80 [ACK] Seq=1 Ack=1 Win=8192 Len=0
+
+Frame 185: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F0AC679D-D3E5-4CFD-8C9C-9FE03533062E}, id 0
+Ethernet II, Src: MicroStarINT_a2:de:f2 (04:7c:16:a2:de:f2), Dst: Routerboardc_8b:a7:e8 (08:55:31:8b:a7:e8)
+Internet Protocol Version 4, Src: 10.18.38.100, Dst: 47.88.25.126
+Transmission Control Protocol, Src Port: 62019, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+    Source Port: 62019
+    Destination Port: 80
+    [Stream index: 7]
+    [Stream Packet Number: 3]
+    [Conversation completeness: Complete, WITH_DATA (47)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 3446250337
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 1    (relative ack number)
+    Acknowledgment number (raw): 1104762960
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······A····]
+    Window: 8192
+    [Calculated window size: 8192]
+    [Window size scaling factor: 1]
+    Checksum: 0x7966 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+
+No.     Time           Source                Destination           Protocol Length Info
+    186 2.320742       10.18.38.100          47.88.25.126          HTTP     425    GET /interface.php?m=uploadstatus&pid=14416&version_id=1.0.0.8&client_sign={abbecd6b-81eb-4e1e-b221-82aecdb41e08G} HTTP/1.1 
+
+Frame 186: Packet, 425 bytes on wire (3400 bits), 425 bytes captured (3400 bits) on interface \Device\NPF_{F0AC679D-D3E5-4CFD-8C9C-9FE03533062E}, id 0
+Ethernet II, Src: MicroStarINT_a2:de:f2 (04:7c:16:a2:de:f2), Dst: Routerboardc_8b:a7:e8 (08:55:31:8b:a7:e8)
+Internet Protocol Version 4, Src: 10.18.38.100, Dst: 47.88.25.126
+Transmission Control Protocol, Src Port: 62019, Dst Port: 80, Seq: 1, Ack: 1, Len: 371
+    Source Port: 62019
+    Destination Port: 80
+    [Stream index: 7]
+    [Stream Packet Number: 4]
+    [Conversation completeness: Complete, WITH_DATA (47)]
+    [TCP Segment Len: 371]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 3446250337
+    [Next Sequence Number: 372    (relative sequence number)]
+    Acknowledgment Number: 1    (relative ack number)
+    Acknowledgment number (raw): 1104762960
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 8192
+    [Calculated window size: 8192]
+    [Window size scaling factor: 1]
+    Checksum: 0x7ad9 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (371 bytes)
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    194 2.578284       47.88.25.126          10.18.38.100          TCP      60     80 → 62019 [ACK] Seq=1 Ack=372 Win=67072 Len=0
+
+Frame 194: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{F0AC679D-D3E5-4CFD-8C9C-9FE03533062E}, id 0
+Ethernet II, Src: Routerboardc_8b:a7:e8 (08:55:31:8b:a7:e8), Dst: MicroStarINT_a2:de:f2 (04:7c:16:a2:de:f2)
+Internet Protocol Version 4, Src: 47.88.25.126, Dst: 10.18.38.100
+Transmission Control Protocol, Src Port: 80, Dst Port: 62019, Seq: 1, Ack: 372, Len: 0
+    Source Port: 80
+    Destination Port: 62019
+    [Stream index: 7]
+    [Stream Packet Number: 5]
+    [Conversation completeness: Complete, WITH_DATA (47)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 1104762960
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 372    (relative ack number)
+    Acknowledgment number (raw): 3446250708
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······A····]
+    Window: 131
+    [Calculated window size: 67072]
+    [Window size scaling factor: 512]
+    Checksum: 0x3f0a [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+
+No.     Time           Source                Destination           Protocol Length Info
+    195 2.580403       47.88.25.126          10.18.38.100          HTTP     324    HTTP/1.1 404 Not Found  [Last Chunk]
+
+Frame 195: Packet, 324 bytes on wire (2592 bits), 324 bytes captured (2592 bits) on interface \Device\NPF_{F0AC679D-D3E5-4CFD-8C9C-9FE03533062E}, id 0
+Ethernet II, Src: Routerboardc_8b:a7:e8 (08:55:31:8b:a7:e8), Dst: MicroStarINT_a2:de:f2 (04:7c:16:a2:de:f2)
+Internet Protocol Version 4, Src: 47.88.25.126, Dst: 10.18.38.100
+Transmission Control Protocol, Src Port: 80, Dst Port: 62019, Seq: 1, Ack: 372, Len: 270
+    Source Port: 80
+    Destination Port: 62019
+    [Stream index: 7]
+    [Stream Packet Number: 6]
+    [Conversation completeness: Complete, WITH_DATA (47)]
+    [TCP Segment Len: 270]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 1104762960
+    [Next Sequence Number: 271    (relative sequence number)]
+    Acknowledgment Number: 372    (relative ack number)
+    Acknowledgment number (raw): 3446250708
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 131
+    [Calculated window size: 67072]
+    [Window size scaling factor: 512]
+    Checksum: 0xe170 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (270 bytes)
+Hypertext Transfer Protocol, has 1 chunk (including last chunk)
+
+No.     Time           Source                Destination           Protocol Length Info
+    197 2.625322       10.18.38.100          47.88.25.126          TCP      54     62019 → 80 [ACK] Seq=372 Ack=271 Win=7922 Len=0
+
+Frame 197: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F0AC679D-D3E5-4CFD-8C9C-9FE03533062E}, id 0
+Ethernet II, Src: MicroStarINT_a2:de:f2 (04:7c:16:a2:de:f2), Dst: Routerboardc_8b:a7:e8 (08:55:31:8b:a7:e8)
+Internet Protocol Version 4, Src: 10.18.38.100, Dst: 47.88.25.126
+Transmission Control Protocol, Src Port: 62019, Dst Port: 80, Seq: 372, Ack: 271, Len: 0
+    Source Port: 62019
+    Destination Port: 80
+    [Stream index: 7]
+    [Stream Packet Number: 7]
+    [Conversation completeness: Complete, WITH_DATA (47)]
+    [TCP Segment Len: 0]
+    Sequence Number: 372    (relative sequence number)
+    Sequence Number (raw): 3446250708
+    [Next Sequence Number: 372    (relative sequence number)]
+    Acknowledgment Number: 271    (relative ack number)
+    Acknowledgment number (raw): 1104763230
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······A····]
+    Window: 7922
+    [Calculated window size: 7922]
+    [Window size scaling factor: 1]
+    Checksum: 0x7966 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+
+No.     Time           Source                Destination           Protocol Length Info
+    308 5.423153       10.18.38.100          92.223.95.95          HTTP     411    HEAD /filestreamingservice/files/ddbf4492-d475-4fe4-bcde-6cbac56f6034?P1=1770312937&P2=404&P3=2&P4=bkCWOJN0tgb7ghs1vZR88etiIzkRnPEey%2fQWA%2fwWaVo1n%2fBnVi0R8hto%2fDnlfdbtx3XwjmHrz0mIuxyrHqXeWw%3d%3d HTTP/1.1 
+
+Frame 308: Packet, 411 bytes on wire (3288 bits), 411 bytes captured (3288 bits) on interface \Device\NPF_{F0AC679D-D3E5-4CFD-8C9C-9FE03533062E}, id 0
+Ethernet II, Src: MicroStarINT_a2:de:f2 (04:7c:16:a2:de:f2), Dst: Routerboardc_8b:a7:e8 (08:55:31:8b:a7:e8)
+Internet Protocol Version 4, Src: 10.18.38.100, Dst: 92.223.95.95
+Transmission Control Protocol, Src Port: 57958, Dst Port: 80, Seq: 1, Ack: 1, Len: 357
+    Source Port: 57958
+    Destination Port: 80
+    [Stream index: 10]
+    [Stream Packet Number: 1]
+    [Conversation completeness: Incomplete (12)]
+    [TCP Segment Len: 357]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 3579443489
+    [Next Sequence Number: 358    (relative sequence number)]
+    Acknowledgment Number: 1    (relative ack number)
+    Acknowledgment number (raw): 902623254
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 252
+    [Calculated window size: 252]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0xee33 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (357 bytes)
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    309 5.472183       92.223.95.95          10.18.38.100          HTTP     808    HTTP/1.1 200 OK 
+
+Frame 309: Packet, 808 bytes on wire (6464 bits), 808 bytes captured (6464 bits) on interface \Device\NPF_{F0AC679D-D3E5-4CFD-8C9C-9FE03533062E}, id 0
+Ethernet II, Src: Routerboardc_8b:a7:e8 (08:55:31:8b:a7:e8), Dst: MicroStarINT_a2:de:f2 (04:7c:16:a2:de:f2)
+Internet Protocol Version 4, Src: 92.223.95.95, Dst: 10.18.38.100
+Transmission Control Protocol, Src Port: 80, Dst Port: 57958, Seq: 1, Ack: 358, Len: 754
+    Source Port: 80
+    Destination Port: 57958
+    [Stream index: 10]
+    [Stream Packet Number: 2]
+    [Conversation completeness: Incomplete (12)]
+    [TCP Segment Len: 754]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 902623254
+    [Next Sequence Number: 755    (relative sequence number)]
+    Acknowledgment Number: 358    (relative ack number)
+    Acknowledgment number (raw): 3579443846
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 8
+    [Calculated window size: 8]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x5583 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (754 bytes)
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    310 5.515122       10.18.38.100          92.223.95.95          TCP      54     57958 → 80 [ACK] Seq=358 Ack=755 Win=255 Len=0
+
+Frame 310: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F0AC679D-D3E5-4CFD-8C9C-9FE03533062E}, id 0
+Ethernet II, Src: MicroStarINT_a2:de:f2 (04:7c:16:a2:de:f2), Dst: Routerboardc_8b:a7:e8 (08:55:31:8b:a7:e8)
+Internet Protocol Version 4, Src: 10.18.38.100, Dst: 92.223.95.95
+Transmission Control Protocol, Src Port: 57958, Dst Port: 80, Seq: 358, Ack: 755, Len: 0
+    Source Port: 57958
+    Destination Port: 80
+    [Stream index: 10]
+    [Stream Packet Number: 3]
+    [Conversation completeness: Incomplete (12)]
+    [TCP Segment Len: 0]
+    Sequence Number: 358    (relative sequence number)
+    Sequence Number (raw): 3579443846
+    [Next Sequence Number: 358    (relative sequence number)]
+    Acknowledgment Number: 755    (relative ack number)
+    Acknowledgment number (raw): 902624008
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······A····]
+    Window: 255
+    [Calculated window size: 255]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0xecce [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+
+No.     Time           Source                Destination           Protocol Length Info
+    319 5.647165       10.18.38.100          92.223.95.95          HTTP     462    GET /filestreamingservice/files/ddbf4492-d475-4fe4-bcde-6cbac56f6034?P1=1770312937&P2=404&P3=2&P4=bkCWOJN0tgb7ghs1vZR88etiIzkRnPEey%2fQWA%2fwWaVo1n%2fBnVi0R8hto%2fDnlfdbtx3XwjmHrz0mIuxyrHqXeWw%3d%3d HTTP/1.1 
+
+Frame 319: Packet, 462 bytes on wire (3696 bits), 462 bytes captured (3696 bits) on interface \Device\NPF_{F0AC679D-D3E5-4CFD-8C9C-9FE03533062E}, id 0
+Ethernet II, Src: MicroStarINT_a2:de:f2 (04:7c:16:a2:de:f2), Dst: Routerboardc_8b:a7:e8 (08:55:31:8b:a7:e8)
+Internet Protocol Version 4, Src: 10.18.38.100, Dst: 92.223.95.95
+Transmission Control Protocol, Src Port: 57958, Dst Port: 80, Seq: 358, Ack: 755, Len: 408
+    Source Port: 57958
+    Destination Port: 80
+    [Stream index: 10]
+    [Stream Packet Number: 4]
+    [Conversation completeness: Incomplete (12)]
+    [TCP Segment Len: 408]
+    Sequence Number: 358    (relative sequence number)
+    Sequence Number (raw): 3579443846
+    [Next Sequence Number: 766    (relative sequence number)]
+    Acknowledgment Number: 755    (relative ack number)
+    Acknowledgment number (raw): 902624008
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 255
+    [Calculated window size: 255]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0xee66 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (408 bytes)
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    324 5.696258       92.223.95.95          10.18.38.100          TCP      1424   80 → 57958 [ACK] Seq=755 Ack=766 Win=8 Len=1370 [TCP PDU reassembled in 325]
+
+Frame 324: Packet, 1424 bytes on wire (11392 bits), 1424 bytes captured (11392 bits) on interface \Device\NPF_{F0AC679D-D3E5-4CFD-8C9C-9FE03533062E}, id 0
+Ethernet II, Src: Routerboardc_8b:a7:e8 (08:55:31:8b:a7:e8), Dst: MicroStarINT_a2:de:f2 (04:7c:16:a2:de:f2)
+Internet Protocol Version 4, Src: 92.223.95.95, Dst: 10.18.38.100
+Transmission Control Protocol, Src Port: 80, Dst Port: 57958, Seq: 755, Ack: 766, Len: 1370
+    Source Port: 80
+    Destination Port: 57958
+    [Stream index: 10]
+    [Stream Packet Number: 5]
+    [Conversation completeness: Incomplete (12)]
+    [TCP Segment Len: 1370]
+    Sequence Number: 755    (relative sequence number)
+    Sequence Number (raw): 902624008
+    [Next Sequence Number: 2125    (relative sequence number)]
+    Acknowledgment Number: 766    (relative ack number)
+    Acknowledgment number (raw): 3579444254
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······A····]
+    Window: 8
+    [Calculated window size: 8]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0xdb1b [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (1370 bytes)
+    [Reassembled PDU in frame: 325]
+    TCP segment data (1370 bytes)
+
+No.     Time           Source                Destination           Protocol Length Info
+    325 5.696258       92.223.95.95          10.18.38.100          HTTP     1328   HTTP/1.1 200 OK  (application/x-chrome-extension)
+
+Frame 325: Packet, 1328 bytes on wire (10624 bits), 1328 bytes captured (10624 bits) on interface \Device\NPF_{F0AC679D-D3E5-4CFD-8C9C-9FE03533062E}, id 0
+Ethernet II, Src: Routerboardc_8b:a7:e8 (08:55:31:8b:a7:e8), Dst: MicroStarINT_a2:de:f2 (04:7c:16:a2:de:f2)
+Internet Protocol Version 4, Src: 92.223.95.95, Dst: 10.18.38.100
+Transmission Control Protocol, Src Port: 80, Dst Port: 57958, Seq: 2125, Ack: 766, Len: 1274
+    Source Port: 80
+    Destination Port: 57958
+    [Stream index: 10]
+    [Stream Packet Number: 6]
+    [Conversation completeness: Incomplete (12)]
+    [TCP Segment Len: 1274]
+    Sequence Number: 2125    (relative sequence number)
+    Sequence Number (raw): 902625378
+    [Next Sequence Number: 3399    (relative sequence number)]
+    Acknowledgment Number: 766    (relative ack number)
+    Acknowledgment number (raw): 3579444254
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 8
+    [Calculated window size: 8]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x8bd5 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (1274 bytes)
+    TCP segment data (1274 bytes)
+[2 Reassembled TCP Segments (2644 bytes): #324(1370), #325(1274)]
+Hypertext Transfer Protocol
+Media Type
+
+No.     Time           Source                Destination           Protocol Length Info
+    326 5.696373       10.18.38.100          92.223.95.95          TCP      54     57958 → 80 [ACK] Seq=766 Ack=3399 Win=255 Len=0
+
+Frame 326: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F0AC679D-D3E5-4CFD-8C9C-9FE03533062E}, id 0
+Ethernet II, Src: MicroStarINT_a2:de:f2 (04:7c:16:a2:de:f2), Dst: Routerboardc_8b:a7:e8 (08:55:31:8b:a7:e8)
+Internet Protocol Version 4, Src: 10.18.38.100, Dst: 92.223.95.95
+Transmission Control Protocol, Src Port: 57958, Dst Port: 80, Seq: 766, Ack: 3399, Len: 0
+    Source Port: 57958
+    Destination Port: 80
+    [Stream index: 10]
+    [Stream Packet Number: 7]
+    [Conversation completeness: Incomplete (12)]
+    [TCP Segment Len: 0]
+    Sequence Number: 766    (relative sequence number)
+    Sequence Number (raw): 3579444254
+    [Next Sequence Number: 766    (relative sequence number)]
+    Acknowledgment Number: 3399    (relative ack number)
+    Acknowledgment number (raw): 902626652
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······A····]
+    Window: 255
+    [Calculated window size: 255]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0xecce [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+
+No.     Time           Source                Destination           Protocol Length Info
+    656 22.096198      10.18.38.100          92.223.95.95          HTTP     405    HEAD /filestreamingservice/files/fa2a82d6-5b86-46d7-867a-3eb80ab6bdaf?P1=1770316537&P2=404&P3=2&P4=X%2fHvy3gfCISzcZWoYj8XMBQmkQX5hhFYGruGx2CM66QQ8VaoVncGvDql9TVA7VSeNoeyxlmSFYSXfLZ7DgUuJg%3d%3d HTTP/1.1 
+
+Frame 656: Packet, 405 bytes on wire (3240 bits), 405 bytes captured (3240 bits) on interface \Device\NPF_{F0AC679D-D3E5-4CFD-8C9C-9FE03533062E}, id 0
+Ethernet II, Src: MicroStarINT_a2:de:f2 (04:7c:16:a2:de:f2), Dst: Routerboardc_8b:a7:e8 (08:55:31:8b:a7:e8)
+Internet Protocol Version 4, Src: 10.18.38.100, Dst: 92.223.95.95
+Transmission Control Protocol, Src Port: 57958, Dst Port: 80, Seq: 766, Ack: 3399, Len: 351
+    Source Port: 57958
+    Destination Port: 80
+    [Stream index: 10]
+    [Stream Packet Number: 8]
+    [Conversation completeness: Incomplete (12)]
+    [TCP Segment Len: 351]
+    Sequence Number: 766    (relative sequence number)
+    Sequence Number (raw): 3579444254
+    [Next Sequence Number: 1117    (relative sequence number)]
+    Acknowledgment Number: 3399    (relative ack number)
+    Acknowledgment number (raw): 902626652
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 255
+    [Calculated window size: 255]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0xee2d [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (351 bytes)
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    657 22.159716      92.223.95.95          10.18.38.100          HTTP     806    HTTP/1.1 200 OK 
+
+Frame 657: Packet, 806 bytes on wire (6448 bits), 806 bytes captured (6448 bits) on interface \Device\NPF_{F0AC679D-D3E5-4CFD-8C9C-9FE03533062E}, id 0
+Ethernet II, Src: Routerboardc_8b:a7:e8 (08:55:31:8b:a7:e8), Dst: MicroStarINT_a2:de:f2 (04:7c:16:a2:de:f2)
+Internet Protocol Version 4, Src: 92.223.95.95, Dst: 10.18.38.100
+Transmission Control Protocol, Src Port: 80, Dst Port: 57958, Seq: 3399, Ack: 1117, Len: 752
+    Source Port: 80
+    Destination Port: 57958
+    [Stream index: 10]
+    [Stream Packet Number: 9]
+    [Conversation completeness: Incomplete (12)]
+    [TCP Segment Len: 752]
+    Sequence Number: 3399    (relative sequence number)
+    Sequence Number (raw): 902626652
+    [Next Sequence Number: 4151    (relative sequence number)]
+    Acknowledgment Number: 1117    (relative ack number)
+    Acknowledgment number (raw): 3579444605
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 8
+    [Calculated window size: 8]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0xc0bc [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (752 bytes)
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    658 22.201197      10.18.38.100          92.223.95.95          HTTP     456    GET /filestreamingservice/files/fa2a82d6-5b86-46d7-867a-3eb80ab6bdaf?P1=1770316537&P2=404&P3=2&P4=X%2fHvy3gfCISzcZWoYj8XMBQmkQX5hhFYGruGx2CM66QQ8VaoVncGvDql9TVA7VSeNoeyxlmSFYSXfLZ7DgUuJg%3d%3d HTTP/1.1 
+
+Frame 658: Packet, 456 bytes on wire (3648 bits), 456 bytes captured (3648 bits) on interface \Device\NPF_{F0AC679D-D3E5-4CFD-8C9C-9FE03533062E}, id 0
+Ethernet II, Src: MicroStarINT_a2:de:f2 (04:7c:16:a2:de:f2), Dst: Routerboardc_8b:a7:e8 (08:55:31:8b:a7:e8)
+Internet Protocol Version 4, Src: 10.18.38.100, Dst: 92.223.95.95
+Transmission Control Protocol, Src Port: 57958, Dst Port: 80, Seq: 1117, Ack: 4151, Len: 402
+    Source Port: 57958
+    Destination Port: 80
+    [Stream index: 10]
+    [Stream Packet Number: 10]
+    [Conversation completeness: Incomplete (12)]
+    [TCP Segment Len: 402]
+    Sequence Number: 1117    (relative sequence number)
+    Sequence Number (raw): 3579444605
+    [Next Sequence Number: 1519    (relative sequence number)]
+    Acknowledgment Number: 4151    (relative ack number)
+    Acknowledgment number (raw): 902627404
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 253
+    [Calculated window size: 253]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0xee60 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (402 bytes)
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    660 22.250140      92.223.95.95          10.18.38.100          TCP      1251   80 → 57958 [ACK] Seq=4151 Ack=1519 Win=8 Len=1197 [TCP PDU reassembled in 666]
+
+Frame 660: Packet, 1251 bytes on wire (10008 bits), 1251 bytes captured (10008 bits) on interface \Device\NPF_{F0AC679D-D3E5-4CFD-8C9C-9FE03533062E}, id 0
+Ethernet II, Src: Routerboardc_8b:a7:e8 (08:55:31:8b:a7:e8), Dst: MicroStarINT_a2:de:f2 (04:7c:16:a2:de:f2)
+Internet Protocol Version 4, Src: 92.223.95.95, Dst: 10.18.38.100
+Transmission Control Protocol, Src Port: 80, Dst Port: 57958, Seq: 4151, Ack: 1519, Len: 1197
+    Source Port: 80
+    Destination Port: 57958
+    [Stream index: 10]
+    [Stream Packet Number: 11]
+    [Conversation completeness: Incomplete (12)]
+    [TCP Segment Len: 1197]
+    Sequence Number: 4151    (relative sequence number)
+    Sequence Number (raw): 902627404
+    [Next Sequence Number: 5348    (relative sequence number)]
+    Acknowledgment Number: 1519    (relative ack number)
+    Acknowledgment number (raw): 3579445007
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······A····]
+    Window: 8
+    [Calculated window size: 8]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0xb2d3 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (1197 bytes)
+    [Reassembled PDU in frame: 666]
+    TCP segment data (1197 bytes)
+
+No.     Time           Source                Destination           Protocol Length Info
+    661 22.250140      92.223.95.95          10.18.38.100          TCP      2794   80 → 57958 [PSH, ACK] Seq=5348 Ack=1519 Win=8 Len=2740 [TCP PDU reassembled in 666]
+
+Frame 661: Packet, 2794 bytes on wire (22352 bits), 2794 bytes captured (22352 bits) on interface \Device\NPF_{F0AC679D-D3E5-4CFD-8C9C-9FE03533062E}, id 0
+Ethernet II, Src: Routerboardc_8b:a7:e8 (08:55:31:8b:a7:e8), Dst: MicroStarINT_a2:de:f2 (04:7c:16:a2:de:f2)
+Internet Protocol Version 4, Src: 92.223.95.95, Dst: 10.18.38.100
+Transmission Control Protocol, Src Port: 80, Dst Port: 57958, Seq: 5348, Ack: 1519, Len: 2740
+    Source Port: 80
+    Destination Port: 57958
+    [Stream index: 10]
+    [Stream Packet Number: 12]
+    [Conversation completeness: Incomplete (12)]
+    [TCP Segment Len: 2740]
+    Sequence Number: 5348    (relative sequence number)
+    Sequence Number (raw): 902628601
+    [Next Sequence Number: 8088    (relative sequence number)]
+    Acknowledgment Number: 1519    (relative ack number)
+    Acknowledgment number (raw): 3579445007
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 8
+    [Calculated window size: 8]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x0000 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (2740 bytes)
+    [Reassembled PDU in frame: 666]
+    TCP segment data (2740 bytes)
+
+No.     Time           Source                Destination           Protocol Length Info
+    662 22.250302      10.18.38.100          92.223.95.95          TCP      54     57958 → 80 [ACK] Seq=1519 Ack=8088 Win=255 Len=0
+
+Frame 662: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F0AC679D-D3E5-4CFD-8C9C-9FE03533062E}, id 0
+Ethernet II, Src: MicroStarINT_a2:de:f2 (04:7c:16:a2:de:f2), Dst: Routerboardc_8b:a7:e8 (08:55:31:8b:a7:e8)
+Internet Protocol Version 4, Src: 10.18.38.100, Dst: 92.223.95.95
+Transmission Control Protocol, Src Port: 57958, Dst Port: 80, Seq: 1519, Ack: 8088, Len: 0
+    Source Port: 57958
+    Destination Port: 80
+    [Stream index: 10]
+    [Stream Packet Number: 13]
+    [Conversation completeness: Incomplete (12)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1519    (relative sequence number)
+    Sequence Number (raw): 3579445007
+    [Next Sequence Number: 1519    (relative sequence number)]
+    Acknowledgment Number: 8088    (relative ack number)
+    Acknowledgment number (raw): 902631341
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······A····]
+    Window: 255
+    [Calculated window size: 255]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0xecce [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+
+No.     Time           Source                Destination           Protocol Length Info
+    663 22.250906      92.223.95.95          10.18.38.100          TCP      2794   80 → 57958 [PSH, ACK] Seq=8088 Ack=1519 Win=8 Len=2740 [TCP PDU reassembled in 666]
+
+Frame 663: Packet, 2794 bytes on wire (22352 bits), 2794 bytes captured (22352 bits) on interface \Device\NPF_{F0AC679D-D3E5-4CFD-8C9C-9FE03533062E}, id 0
+Ethernet II, Src: Routerboardc_8b:a7:e8 (08:55:31:8b:a7:e8), Dst: MicroStarINT_a2:de:f2 (04:7c:16:a2:de:f2)
+Internet Protocol Version 4, Src: 92.223.95.95, Dst: 10.18.38.100
+Transmission Control Protocol, Src Port: 80, Dst Port: 57958, Seq: 8088, Ack: 1519, Len: 2740
+    Source Port: 80
+    Destination Port: 57958
+    [Stream index: 10]
+    [Stream Packet Number: 14]
+    [Conversation completeness: Incomplete (12)]
+    [TCP Segment Len: 2740]
+    Sequence Number: 8088    (relative sequence number)
+    Sequence Number (raw): 902631341
+    [Next Sequence Number: 10828    (relative sequence number)]
+    Acknowledgment Number: 1519    (relative ack number)
+    Acknowledgment number (raw): 3579445007
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 8
+    [Calculated window size: 8]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x0000 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (2740 bytes)
+    [Reassembled PDU in frame: 666]
+    TCP segment data (2740 bytes)
+
+No.     Time           Source                Destination           Protocol Length Info
+    664 22.251008      10.18.38.100          92.223.95.95          TCP      54     57958 → 80 [ACK] Seq=1519 Ack=10828 Win=255 Len=0
+
+Frame 664: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F0AC679D-D3E5-4CFD-8C9C-9FE03533062E}, id 0
+Ethernet II, Src: MicroStarINT_a2:de:f2 (04:7c:16:a2:de:f2), Dst: Routerboardc_8b:a7:e8 (08:55:31:8b:a7:e8)
+Internet Protocol Version 4, Src: 10.18.38.100, Dst: 92.223.95.95
+Transmission Control Protocol, Src Port: 57958, Dst Port: 80, Seq: 1519, Ack: 10828, Len: 0
+    Source Port: 57958
+    Destination Port: 80
+    [Stream index: 10]
+    [Stream Packet Number: 15]
+    [Conversation completeness: Incomplete (12)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1519    (relative sequence number)
+    Sequence Number (raw): 3579445007
+    [Next Sequence Number: 1519    (relative sequence number)]
+    Acknowledgment Number: 10828    (relative ack number)
+    Acknowledgment number (raw): 902634081
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······A····]
+    Window: 255
+    [Calculated window size: 255]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0xecce [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+
+No.     Time           Source                Destination           Protocol Length Info
+    665 22.251808      92.223.95.95          10.18.38.100          TCP      1424   80 → 57958 [ACK] Seq=10828 Ack=1519 Win=8 Len=1370 [TCP PDU reassembled in 666]
+
+Frame 665: Packet, 1424 bytes on wire (11392 bits), 1424 bytes captured (11392 bits) on interface \Device\NPF_{F0AC679D-D3E5-4CFD-8C9C-9FE03533062E}, id 0
+Ethernet II, Src: Routerboardc_8b:a7:e8 (08:55:31:8b:a7:e8), Dst: MicroStarINT_a2:de:f2 (04:7c:16:a2:de:f2)
+Internet Protocol Version 4, Src: 92.223.95.95, Dst: 10.18.38.100
+Transmission Control Protocol, Src Port: 80, Dst Port: 57958, Seq: 10828, Ack: 1519, Len: 1370
+    Source Port: 80
+    Destination Port: 57958
+    [Stream index: 10]
+    [Stream Packet Number: 16]
+    [Conversation completeness: Incomplete (12)]
+    [TCP Segment Len: 1370]
+    Sequence Number: 10828    (relative sequence number)
+    Sequence Number (raw): 902634081
+    [Next Sequence Number: 12198    (relative sequence number)]
+    Acknowledgment Number: 1519    (relative ack number)
+    Acknowledgment number (raw): 3579445007
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······A····]
+    Window: 8
+    [Calculated window size: 8]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x2ca4 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (1370 bytes)
+    [Reassembled PDU in frame: 666]
+    TCP segment data (1370 bytes)
+
+No.     Time           Source                Destination           Protocol Length Info
+    666 22.251808      92.223.95.95          10.18.38.100          HTTP     1170   HTTP/1.1 200 OK  (application/x-chrome-extension)
+
+Frame 666: Packet, 1170 bytes on wire (9360 bits), 1170 bytes captured (9360 bits) on interface \Device\NPF_{F0AC679D-D3E5-4CFD-8C9C-9FE03533062E}, id 0
+Ethernet II, Src: Routerboardc_8b:a7:e8 (08:55:31:8b:a7:e8), Dst: MicroStarINT_a2:de:f2 (04:7c:16:a2:de:f2)
+Internet Protocol Version 4, Src: 92.223.95.95, Dst: 10.18.38.100
+Transmission Control Protocol, Src Port: 80, Dst Port: 57958, Seq: 12198, Ack: 1519, Len: 1116
+    Source Port: 80
+    Destination Port: 57958
+    [Stream index: 10]
+    [Stream Packet Number: 17]
+    [Conversation completeness: Incomplete (12)]
+    [TCP Segment Len: 1116]
+    Sequence Number: 12198    (relative sequence number)
+    Sequence Number (raw): 902635451
+    [Next Sequence Number: 13314    (relative sequence number)]
+    Acknowledgment Number: 1519    (relative ack number)
+    Acknowledgment number (raw): 3579445007
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 8
+    [Calculated window size: 8]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0xc013 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (1116 bytes)
+    TCP segment data (1116 bytes)
+[5 Reassembled TCP Segments (9163 bytes): #660(1197), #661(2740), #663(2740), #665(1370), #666(1116)]
+Hypertext Transfer Protocol
+Media Type
+
+No.     Time           Source                Destination           Protocol Length Info
+    667 22.251910      10.18.38.100          92.223.95.95          TCP      54     57958 → 80 [ACK] Seq=1519 Ack=13314 Win=255 Len=0
+
+Frame 667: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F0AC679D-D3E5-4CFD-8C9C-9FE03533062E}, id 0
+Ethernet II, Src: MicroStarINT_a2:de:f2 (04:7c:16:a2:de:f2), Dst: Routerboardc_8b:a7:e8 (08:55:31:8b:a7:e8)
+Internet Protocol Version 4, Src: 10.18.38.100, Dst: 92.223.95.95
+Transmission Control Protocol, Src Port: 57958, Dst Port: 80, Seq: 1519, Ack: 13314, Len: 0
+    Source Port: 57958
+    Destination Port: 80
+    [Stream index: 10]
+    [Stream Packet Number: 18]
+    [Conversation completeness: Incomplete (12)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1519    (relative sequence number)
+    Sequence Number (raw): 3579445007
+    [Next Sequence Number: 1519    (relative sequence number)]
+    Acknowledgment Number: 13314    (relative ack number)
+    Acknowledgment number (raw): 902636567
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······A····]
+    Window: 255
+    [Calculated window size: 255]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0xecce [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1355 32.595421      10.18.38.100          47.88.25.126          TCP      54     62019 → 80 [RST, ACK] Seq=372 Ack=271 Win=0 Len=0
+
+Frame 1355: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{F0AC679D-D3E5-4CFD-8C9C-9FE03533062E}, id 0
+Ethernet II, Src: MicroStarINT_a2:de:f2 (04:7c:16:a2:de:f2), Dst: Routerboardc_8b:a7:e8 (08:55:31:8b:a7:e8)
+Internet Protocol Version 4, Src: 10.18.38.100, Dst: 47.88.25.126
+Transmission Control Protocol, Src Port: 62019, Dst Port: 80, Seq: 372, Ack: 271, Len: 0
+    Source Port: 62019
+    Destination Port: 80
+    [Stream index: 7]
+    [Stream Packet Number: 8]
+    [Conversation completeness: Complete, WITH_DATA (47)]
+    [TCP Segment Len: 0]
+    Sequence Number: 372    (relative sequence number)
+    Sequence Number (raw): 3446250708
+    [Next Sequence Number: 372    (relative sequence number)]
+    Acknowledgment Number: 271    (relative ack number)
+    Acknowledgment number (raw): 1104763230
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x014 (RST, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .1.. = Reset: Set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······A·R··]
+    Window: 0
+    [Calculated window size: 0]
+    [Window size scaling factor: 1]
+    Checksum: 0x7966 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
