@@ -1,0 +1,86 @@
+Router:
+
+Router>en
+Router#conf t
+Router(config)#int fa0/0
+Router(config-if)#ip address 192.168.0.1 255.255.255.0
+Router(Config-if)#no shutdown
+
+Static Routing:
+Router(config)#ip route 192.168.0.2 255.255.255.0 fa4/0
+
+showing router:
+Router#show ip route
+
+PC ping:
+PC>ping 192.168.0.4
+
+
+Dynamic Routing:
+Router(config)#router rip
+Router(config-router)#network 192.168.0.5
+
+VLAN:
+switch:access mode
+switch>en
+switch#conf t
+switch(config)#int fa1/1
+switch(config-if)#switchport mode access
+switch(config-if)#switchport access vlan 10
+
+switch: trunk mode
+switch#conf t
+switch(config)#int fa0/1
+switch(config-if)#switchport mode trunk
+switch(config-if)#switchport trunk native vlan 1
+switch(config-if)#switchport trunk allowed vlan 1,10,30
+
+Router Password:
+Router>en
+Router#conf t
+Router(config)#enable secret cisco
+Router(config)#line console 0
+Router(config-line)#password cisco
+Router(config-line)#login
+
+Virtual Configure:
+Router(config)#hostname R1
+R1(config)#line vty 0 4
+R1(config-line)#password cisco
+R1(config-line)#login
+
+->PC CPL:
+PC>telnet 192.168.2.102
+password: cisco
+R1>en
+R1#
+
+Access Control List-ACL:
+Standard ACL:
+Router(config)#access-list 1 deny host 192.168.1.1
+Router(config)#do show access-lists
+Router(config)#int fa4/0
+Router(config-if)#ip access-group 1 in 
+
+Remove:
+Router(config)#no access-list 1
+
+Extended List:
+Router(config)#access-list 100 deny icmp 192.168.1.0 host 192.168.3.1 echo
+Router(config)#access-list 100 permit icmp any any echo
+Router(config)#int fa0/1
+Router(config-if)#ip access-group 100 in 
+
+Network Address Translations - NAT 
+Router(config)#access-list 1 permit 192.168.1.0 0.0.0.255
+Router(config)#ip nat inside source list 1 int fa4/0 overload
+Router(config)#do show ip nat Translations
+
+Using pool:
+Router(config)#ip nat pool pool_1 209.165.200.1 209.165.200.4 netmask 255.255.255.0
+Router(config)#ip nat inside source list 1 pool pool_1 overload
+
+Router(config)#int fa0/0
+Router(config-if)#ip nat inside 
+Router(config)#int fa4/0
+Router(config-if)#ip nat outside
